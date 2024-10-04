@@ -398,7 +398,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 
-MapleStory2.5/Client/bin/Resources/*
-MapleStory2.5/Client/Data/*
-Tool/Client/bin/Resources/*
-Tool/Client/Data/*
+MapleStory2/Client/Client/bin/Resources/*
+MapleStory2/Client/Client/Data/*
+MapleStory2/Tool/Client/bin/Resources/*
+MapleStory2/Tool/Client/Data/*
