@@ -1,0 +1,2096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="90.Default">
+      <UniqueIdentifier>{d5e911cf-7ec2-466a-8af3-5e25e49bdcc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{515c8648-0ac5-466d-8a41-a05d4f9d71e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{4bcaaf1d-01b7-48ab-a090-c1ee0451ec06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\GamePlay">
+      <UniqueIdentifier>{8f3a036a-1325-4dfc-8798-7d2ef8fff370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\Loading">
+      <UniqueIdentifier>{7dfd6c57-a5b0-4f83-914b-b6fe4e9af40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\Loading\Loader">
+      <UniqueIdentifier>{59f12939-c457-47c2-9c79-47608723a368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{c4b8b095-92cb-44c3-aefb-94528c281461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera">
+      <UniqueIdentifier>{06c63064-d248-45d2-bb32-c642c92886c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube">
+      <UniqueIdentifier>{56234d9b-3d8f-4299-a4fc-024345305160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature">
+      <UniqueIdentifier>{113baaa9-6dad-4d30-90be-31542dcb15db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MoDel">
+      <UniqueIdentifier>{a08430b2-81f3-475d-be09-1bee6cde32c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MoDel\Wood">
+      <UniqueIdentifier>{c8d36d46-76ed-46a6-9699-37c6abacc648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Player">
+      <UniqueIdentifier>{1706e6cf-71bc-4be8-b54a-d3fe1f635c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster">
+      <UniqueIdentifier>{befeacc2-5ae3-46d9-9ea6-3acf1eeb6f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\OrangeMushroom">
+      <UniqueIdentifier>{47f7fd98-bbd9-4818-bc33-ba3728fdc141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill">
+      <UniqueIdentifier>{151537b9-6f0f-4d0c-9bcb-eb3034f7018f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\RedSnail">
+      <UniqueIdentifier>{4039bbfd-f0e3-402f-9c78-d3391d1eb30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\Sllime">
+      <UniqueIdentifier>{062b7ebc-7395-4881-8756-36ce36cf9645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager">
+      <UniqueIdentifier>{1949e62f-62c0-414e-af4f-77049647f4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\UIManager">
+      <UniqueIdentifier>{5b41fc78-ac6d-464b-af53-3f525724f51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\InvenManager">
+      <UniqueIdentifier>{bbdf15f4-e02e-43e8-9c3f-65d8c5fe2337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\SkillManager">
+      <UniqueIdentifier>{0422b7a2-7fd9-4475-b471-7495c6ff9170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\QuestManager">
+      <UniqueIdentifier>{0e30f1bd-c04a-4f47-b6da-6d83a0841f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI">
+      <UniqueIdentifier>{87528349-c508-46f1-8571-4886f9e24565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\RibbonPig">
+      <UniqueIdentifier>{6267fe8c-6b8a-4eca-9af8-39040682607b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc">
+      <UniqueIdentifier>{8f214ff5-1c18-4057-b474-2d32a59d3b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\01.PlayerUI">
+      <UniqueIdentifier>{951933e2-f95a-4ab8-a599-623d35845055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\02.NPCUI">
+      <UniqueIdentifier>{9c1320cb-cdd9-4885-8735-6dfad26eb078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\02.NPCUI\02.Bulb">
+      <UniqueIdentifier>{ee369dd0-4eed-44df-b7c7-c1a4378415ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI">
+      <UniqueIdentifier>{864f40f1-996f-4490-8ba1-7cb217985bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\01.PlayerUI\SkillFrame">
+      <UniqueIdentifier>{f7a05931-264d-4c83-947e-3ca66fc1e6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\01.PlayerUI\SkillFrame\SkillUpBtn">
+      <UniqueIdentifier>{2d7c744a-1300-419d-845e-5221fb94a363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\99.UI">
+      <UniqueIdentifier>{4783165b-bdd4-485f-888a-2ee35492ca7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\02.Quest">
+      <UniqueIdentifier>{78fca32e-9182-4029-a709-7505c766ec02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\03.Dialog">
+      <UniqueIdentifier>{6d6a7ff8-1be6-41e9-a155-1bd76b89de1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MoDel\MushHouse">
+      <UniqueIdentifier>{33c2b3e5-aecd-4978-8c4d-6ba0569ccc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect">
+      <UniqueIdentifier>{500f84c4-6659-46e0-ab66-a2cbe8a33c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack">
+      <UniqueIdentifier>{7b7eff4e-7fff-4015-a7a6-f0a016d6e639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\CrossTheStyx">
+      <UniqueIdentifier>{bf8a3285-e967-4d45-95f4-1775a8353f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\SunCross">
+      <UniqueIdentifier>{928452d5-7aef-4245-8d31-25a455a0b47d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\SunCross\Attack">
+      <UniqueIdentifier>{52a9c8b2-3774-45ea-9a1f-1accfae3f78f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\SunCross\Hit">
+      <UniqueIdentifier>{5b20f897-4c17-4ef0-ac2d-e934d5870be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\Dash">
+      <UniqueIdentifier>{4ab2090d-8f1c-4f58-9b13-8fc8f5a21ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\Dash\SolunaSlash">
+      <UniqueIdentifier>{27d0394f-bd5a-41db-91a3-feacf968a66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\Dash\SolunaSlash\EffectA">
+      <UniqueIdentifier>{24a6cbf4-4631-4d16-ad48-88539c860231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\Dash\SolunaSlash\EffectB">
+      <UniqueIdentifier>{796623a3-ad84-4945-b309-ad03f397c6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack">
+      <UniqueIdentifier>{90197637-a33b-45e3-83a7-c6a284b8b593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA">
+      <UniqueIdentifier>{13257046-6285-4398-b9b1-d98ef6befb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo">
+      <UniqueIdentifier>{04a4cc67-3a9a-4451-a4d1-951ccfc0a1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\CloseAttack">
+      <UniqueIdentifier>{c4c8f146-789e-440f-bb09-35b2d799e94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon">
+      <UniqueIdentifier>{f637cf64-9e5f-476f-88c2-077f2e4c4e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon">
+      <UniqueIdentifier>{a1bb0751-d7f9-49a3-b4a5-9c70724c43e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\CloseAttack">
+      <UniqueIdentifier>{c4256c79-6ce4-41fb-b722-00393e634da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\CloseAttack\SunCross">
+      <UniqueIdentifier>{dce0f7bf-fecd-4111-b28d-66c34968fc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn">
+      <UniqueIdentifier>{c572817d-c5ce-49f7-9849-5c52354ca85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\CloseAttack\SunCross">
+      <UniqueIdentifier>{8896d3d2-2f1e-458f-881c-d34cd096b291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\02.Quest\04.MissionUI">
+      <UniqueIdentifier>{c212165a-a91c-4dce-850c-5b820efb644a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\02.Maya">
+      <UniqueIdentifier>{1ea4ae90-7338-4628-8a74-4d87ea78202e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\01.ElderStan">
+      <UniqueIdentifier>{d3b4189d-7c5f-4955-ad89-72dbc02338bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\StoneGolem">
+      <UniqueIdentifier>{087e3ce3-03d6-4892-bbf4-d02da350afcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\Dash">
+      <UniqueIdentifier>{f035f1b9-b539-406e-b2d0-0d1233e80d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\Dash\SolunaSlash">
+      <UniqueIdentifier>{d5d716cb-5dfb-499c-a9e5-9065b5548e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\Dash">
+      <UniqueIdentifier>{258c6c99-11f5-492b-9183-cfd76829204c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\Dash\SolunaSlash">
+      <UniqueIdentifier>{f879b7dc-fcff-4aac-aa15-4d00c81fee80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\MouseManager">
+      <UniqueIdentifier>{ce307312-bdac-4cae-a0ea-446ee5ebb502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\HpBar">
+      <UniqueIdentifier>{7095ad11-bb94-4edc-8e07-293ec4e85f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\HpBar\Base">
+      <UniqueIdentifier>{a7820ab6-194a-41d6-b638-de87f9eaa8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\HpBar\Hp">
+      <UniqueIdentifier>{bc3e6038-eb96-49f5-a1cd-f29e7339c337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\HpBar\Mp">
+      <UniqueIdentifier>{318ddd0b-4cd3-47ed-a690-b069e79a2fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\HpBar\Icon">
+      <UniqueIdentifier>{d44281ae-5eb5-4396-8cab-db91856191aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\ExpBar">
+      <UniqueIdentifier>{a28e7d5f-15ce-4757-811a-de88a266fe68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\ExpBar\ExpBase">
+      <UniqueIdentifier>{ef397164-806e-4990-aecc-b8a555623099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\ExpBar\ExpLine">
+      <UniqueIdentifier>{5eabbcb0-a58b-4177-82a1-df583ecbe9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\ExpBar\ExpBar">
+      <UniqueIdentifier>{de042f6b-460c-4edf-87ba-b29018160ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\MenuIcon">
+      <UniqueIdentifier>{f61a134b-b881-4441-a998-7893a9d5fdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\QuickSlot">
+      <UniqueIdentifier>{f94e8e2d-3a7a-49ac-961f-4f0fa534bb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\QuickSlot\QuickSlotSkill">
+      <UniqueIdentifier>{6c3419f2-a87a-4bb1-8238-235cdfccb315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\QuickSlotManager">
+      <UniqueIdentifier>{fa4a107b-f993-4ea4-87e8-cd4866ce3628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\Henesys">
+      <UniqueIdentifier>{eda8fc59-e5bc-4d42-8adf-652918bfa143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Section">
+      <UniqueIdentifier>{a233faac-2772-41ae-86bb-f404126c07aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Spawner">
+      <UniqueIdentifier>{9da1ed3c-e3bb-42d1-a842-0e0bb152ae75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Spawner\SpawnerManager">
+      <UniqueIdentifier>{577010bb-2fb9-45b0-9378-2d84a77ba3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\Level_Static">
+      <UniqueIdentifier>{6e054273-b879-4854-8d43-7b0041d5f788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\GreenMushroom">
+      <UniqueIdentifier>{7295d374-a493-4521-96b2-362ec767349d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\BlueSnail">
+      <UniqueIdentifier>{8abce97e-50de-489e-8c4a-3277d60bebca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\GoStump">
+      <UniqueIdentifier>{68b9cc9d-5e45-40d5-a5d9-a52bf31df276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\Elenya">
+      <UniqueIdentifier>{3e1c87f4-4d77-415a-af1b-195d29504777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Potal">
+      <UniqueIdentifier>{1d9a8ed7-cbee-4ca7-9d82-acbe418bb072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\ReefAttack">
+      <UniqueIdentifier>{6b14714a-c07f-4286-94f0-29c366aee220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\ReefAttack\Attack">
+      <UniqueIdentifier>{00d2092b-74b2-4c8d-938b-b3db6f6e37f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\ReefAttack\Hit">
+      <UniqueIdentifier>{f3e76a62-bdbb-4aea-8260-e963475aaf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\Dash\WarriorReef">
+      <UniqueIdentifier>{9df7244f-5caa-4f29-b08e-c26af179ea2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\SpearPulling">
+      <UniqueIdentifier>{25cd20a8-3e30-4a90-b148-8529616443eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\SpearPulling\Attack">
+      <UniqueIdentifier>{2d13a6e3-4571-470f-9f57-9e23a12f1fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\CloseAttack\SpearPulling\Hit">
+      <UniqueIdentifier>{fece6088-94ab-4a1f-b5a3-c76de346fd39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\CloseAttack\ReefAttack">
+      <UniqueIdentifier>{5eae765a-8f16-49d2-a889-9b22aedb06da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\CloseAttack\SpearPulling">
+      <UniqueIdentifier>{6611a43b-ee94-4fdf-ad24-936ff56e0d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\Dash\WarriorReef">
+      <UniqueIdentifier>{0403e166-5a94-42c5-b5aa-2ef27fdcae3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\CloseAttack\ReefAttack">
+      <UniqueIdentifier>{0f5e2390-7dcd-4dc6-b7a6-58f089b98890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\CloseAttack\SpearPulling">
+      <UniqueIdentifier>{8ff02928-8db2-4853-8015-62b2d7ef7198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\Dash\WarriorReef">
+      <UniqueIdentifier>{15db6d70-21ab-4e1a-86c1-f38027624189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Sky">
+      <UniqueIdentifier>{fb732ed9-19a3-4471-9c8d-810dde588abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Particle">
+      <UniqueIdentifier>{c227a9f7-9178-4fc1-9f5a-1f37d2e1ab91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\ParticleManager">
+      <UniqueIdentifier>{8c7e3bb7-50e9-4e7c-a6eb-64d08105f73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\Inventory">
+      <UniqueIdentifier>{972333fc-755f-433e-bb5e-1e15bd8f1410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\Inventory\InvenBtn">
+      <UniqueIdentifier>{4c8c24ee-6f5b-4aad-91ff-75e697566293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\Inventory\ItemIcon">
+      <UniqueIdentifier>{d9115112-5f41-4a0b-bc24-f6b2e35f4850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\Inventory\ItemIcon\ConsumIcon">
+      <UniqueIdentifier>{316941eb-91aa-444e-ac59-3079c6c53485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\Inventory\ItemIcon\EquipIcon">
+      <UniqueIdentifier>{be010ec3-6b69-4081-88ba-3c7f359cdc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\Inventory\ItemIcon\StuffIcon">
+      <UniqueIdentifier>{24bfce3f-195c-4a48-85db-5b7a62167339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo">
+      <UniqueIdentifier>{63cde2b9-9d17-49df-a289-dc8c34c76806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\ConsumInfo">
+      <UniqueIdentifier>{547894a2-2c88-409d-a3a7-2df2cc36728f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo">
+      <UniqueIdentifier>{84128ed9-9145-41d2-bdf9-28e0b3699f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\ConsumInfo\RedPortion">
+      <UniqueIdentifier>{39703acc-9651-4408-b0e3-71833e158f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\ConsumInfo\BluePortion">
+      <UniqueIdentifier>{2ee13c37-d495-4d86-a203-db5c94290451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item">
+      <UniqueIdentifier>{15d0d89b-c9a3-483b-9673-fe10dd9c15e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\DefaultInfo">
+      <UniqueIdentifier>{95838574-73df-486c-8b71-97d19ec2f034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\00.MainUI\QuickSlot\QuickSlotItem">
+      <UniqueIdentifier>{a8306c3e-362b-44d6-af3f-b10b3fb2430b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\CutSceneManager">
+      <UniqueIdentifier>{2d898817-bcb4-444f-a58f-89894d99064b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Shadow">
+      <UniqueIdentifier>{8b687f9d-0fb1-49fa-afbd-9c226b35fb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo\BuleSnail">
+      <UniqueIdentifier>{95e7af74-787f-41ea-a244-1b6a3bd4f619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo\RedSnail">
+      <UniqueIdentifier>{c6b63bec-6527-4b85-ad54-1d9a718477ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo\GoStump">
+      <UniqueIdentifier>{2bbd58b3-e39f-4aeb-8d1d-e723e40c4b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo\RibbonPig">
+      <UniqueIdentifier>{89f5d605-a4fb-4b8e-aafe-c9f15bdb399b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo\Slime">
+      <UniqueIdentifier>{c15ab198-2ca8-4630-9c11-d819262f22fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\StuffInfo\GreenMushRoom">
+      <UniqueIdentifier>{ef1d2cf3-ddb3-4d3a-8333-495298cdfc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Bandit">
+      <UniqueIdentifier>{3f7c83c1-da7f-49d8-b406-4a8d7131267e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster">
+      <UniqueIdentifier>{30d70f8c-4851-44e6-8bcd-4821819f5d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard">
+      <UniqueIdentifier>{fa8f5249-667d-428e-9ed1-3426648ded37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.Notice">
+      <UniqueIdentifier>{48b4079e-1f24-4261-b256-6bef74560783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.Notice\Item">
+      <UniqueIdentifier>{7e7aeecf-ae58-4422-b154-0e3b05b4cce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.Notice\Skill">
+      <UniqueIdentifier>{b52bf7f9-688b-44ff-8b97-636b76cd8ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill">
+      <UniqueIdentifier>{acb9ce7a-d6ca-4353-8da6-f30fa959412d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack1">
+      <UniqueIdentifier>{44ed32a3-4933-4230-8a80-116310b9ea17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Hit">
+      <UniqueIdentifier>{3f0cd5ad-5442-4974-a896-1ebdd2c0bde6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\06.Mouse">
+      <UniqueIdentifier>{0355bad6-3928-4378-8886-2234e79d623f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\06.Mouse\MouseCursor">
+      <UniqueIdentifier>{58b5e812-71df-4286-8309-07cde33ee763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\06.Mouse\MouseSkillIcon">
+      <UniqueIdentifier>{7928b644-ab4c-453b-bf35-7ac952a0eefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\06.Mouse\MouseItemIcon">
+      <UniqueIdentifier>{83ac1191-34ca-4d06-b6d7-8c2f239302ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.Loading">
+      <UniqueIdentifier>{82cba3e5-1e05-4257-b6c0-ccf16cc65b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.Loading\Screen">
+      <UniqueIdentifier>{4ba49980-14a6-412f-90e3-1ac657dede25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.Loading\Mob">
+      <UniqueIdentifier>{2631555f-baf3-45ac-9fa1-542051be4188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="89.Manager\ToolManager">
+      <UniqueIdentifier>{55b031f4-db86-4f17-9c4b-1de74faaaf71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\ElenyaEnter">
+      <UniqueIdentifier>{d1e0760f-c088-4a4d-819c-9b6d5f09bc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\MiddleBoss">
+      <UniqueIdentifier>{9231d880-11a1-4ba9-8d64-dcc17d1b63d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.BossHpBar">
+      <UniqueIdentifier>{ef7dfba7-f40b-4892-a7ea-119dd7e5587d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\03.Warning">
+      <UniqueIdentifier>{9f6b9fa9-753c-459f-bca4-887b5a2f3655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\03.Helena">
+      <UniqueIdentifier>{41b48f26-0f6f-47d7-8e56-78b11741947c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\04.Ming">
+      <UniqueIdentifier>{40368aa3-8c8f-4a9c-94f3-20974f237e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\05.Bird">
+      <UniqueIdentifier>{fad270cc-a528-448b-8b51-5db6af65041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\06.GgoGgo">
+      <UniqueIdentifier>{bae2cedb-6e95-4ced-858c-034984f69bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\07.Chick">
+      <UniqueIdentifier>{96cb89cb-978d-4ffb-a265-6becf1c6a944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack2">
+      <UniqueIdentifier>{13ba626b-184a-48e0-b167-c07cf34cddff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\UI">
+      <UniqueIdentifier>{49a6e8ae-555e-4c6f-bdf8-46720e9899cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\UI\HpBar">
+      <UniqueIdentifier>{b177fbe2-dfbc-43c6-a56b-a213f4061b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\UI\Pattern">
+      <UniqueIdentifier>{2cda21d8-af5a-40c3-ae8f-ce8242918408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\UI\Scene">
+      <UniqueIdentifier>{e6fe2ffc-d962-4a1a-82d7-591cd9e007b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Final">
+      <UniqueIdentifier>{de02f50b-bde5-4a52-9584-8115fda41480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack3">
+      <UniqueIdentifier>{0cc6cfca-3d37-4734-bb83-51c86165d496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\DHenesys">
+      <UniqueIdentifier>{8bbc53b0-cb72-4cd4-8407-9ede7f68e76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\DHenesysHunting">
+      <UniqueIdentifier>{e9339da1-8bec-40aa-88db-d0d715d63adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\DElenyaEnter">
+      <UniqueIdentifier>{e7109a59-5743-42ca-abd2-d415d4ff922e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\DElenya">
+      <UniqueIdentifier>{4db80fe8-e0f4-42a0-af5c-38262746fc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\ElenyaGAS">
+      <UniqueIdentifier>{44a7355f-930e-4597-a9e4-ca0899d062f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\BlackMageEnter">
+      <UniqueIdentifier>{5a2ad42e-f0b1-4606-86e6-b22ac31c22e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\BlackMage">
+      <UniqueIdentifier>{249e968e-6974-4dbc-a263-f07778378a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\WhiteMage">
+      <UniqueIdentifier>{5ff9fefb-0789-4dd1-ac1b-ba2b24a361bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\08.CutScreen">
+      <UniqueIdentifier>{805b4480-a9e7-4aae-b97d-451593128bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\ItemInfo\ConsumInfo\Teleport">
+      <UniqueIdentifier>{1143fc4d-e3cd-42a6-ade3-06b0a0d0025d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Grass">
+      <UniqueIdentifier>{2ff14d73-7f9b-43a6-835d-b30b879b713b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Weed">
+      <UniqueIdentifier>{78078aef-85fa-4ee2-b3b8-e97e130634c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.BossHpBar\BlueMushmom">
+      <UniqueIdentifier>{675326f8-ca04-460e-bf89-2db22c410b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\07.BossHpBar\GAS">
+      <UniqueIdentifier>{a5be0500-2b3d-4a53-ac8b-29ee31adbd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\TransformPig">
+      <UniqueIdentifier>{ec6cc0ee-7330-4626-b832-e8961075ae28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\TransformSlime">
+      <UniqueIdentifier>{6f2afcf9-413c-4bb6-8538-11556de20764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\TransformStump">
+      <UniqueIdentifier>{c9af17c8-b6b5-48d8-afd5-ee5893b8b0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\03.Dialog\ChatBox">
+      <UniqueIdentifier>{d947de5e-e292-49fe-8969-3ff8421256e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\03.Dialog\Taxi">
+      <UniqueIdentifier>{f14d9933-6c76-4325-8636-4b51ac641349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\03.Dialog\Taxi\TaxiButton">
+      <UniqueIdentifier>{a877fbbb-2dcd-4273-bffb-c591c66f448f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\03.Dialog\Taxi\TaxiChatBox">
+      <UniqueIdentifier>{59d48b4c-d7b9-475f-b7b0-ac7df74497ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Taxi">
+      <UniqueIdentifier>{11d238cb-25ac-42a8-8a76-60c1f8f491b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\PushCube">
+      <UniqueIdentifier>{c1c4a5f9-73e1-4578-a5ae-7133f3df1546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\CardinalBlast">
+      <UniqueIdentifier>{6f4ca37a-6289-4e3e-8448-a1a71db3b0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Attack">
+      <UniqueIdentifier>{7d4f3013-ca3d-4701-af7c-29fe0ad065d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Bullet">
+      <UniqueIdentifier>{23304c8b-4f7c-4e08-a0ad-46971a90d1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Hit">
+      <UniqueIdentifier>{8def5178-fc67-4204-9198-8f2546f94c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\ChasingShot">
+      <UniqueIdentifier>{30405137-b7f3-44d6-a885-c5633f05ed28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Attack">
+      <UniqueIdentifier>{d5dc39ac-12c4-46ac-bc45-2e11a7c0652f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Bullet">
+      <UniqueIdentifier>{1b47cdc7-0b6d-4c9a-bebc-dd42f2f94cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Hit">
+      <UniqueIdentifier>{d18e0246-c40b-4242-b556-573d6083e1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\RangeAttack">
+      <UniqueIdentifier>{3a72996f-8f9c-4dfe-a959-ce7b8bc86644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\RangeAttack">
+      <UniqueIdentifier>{56301eff-83e5-4d5a-a9a6-8d44f7ff4990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\RangeAttack\CardinalBlast">
+      <UniqueIdentifier>{558fd720-67f7-4269-8a13-d71b139c5372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\RangeAttack\ChasingShot">
+      <UniqueIdentifier>{944f3f19-4c3e-4731-bc1d-c67f4e033439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\RangeAttack\CardinalBlast">
+      <UniqueIdentifier>{540aa82b-24a2-4a8e-8c8e-969dcba0414d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\RangeAttack\ChasingShot">
+      <UniqueIdentifier>{c651be50-1df4-4143-83c1-23079e79be7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack">
+      <UniqueIdentifier>{12c86341-4c7c-4e14-89bf-b561e6047ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack\Beast">
+      <UniqueIdentifier>{f95ae7c0-ac9e-4a90-b376-92eeaa20fe4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack\Beast\Begin">
+      <UniqueIdentifier>{a3026577-0b58-4344-8917-f9ee6c438fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack\Beast\Loof">
+      <UniqueIdentifier>{e5337f63-b9c5-49dd-b2fc-164909b5a9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack\Beast\Effect">
+      <UniqueIdentifier>{e2778558-1d3a-4013-9094-8a5872a2738c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack\Beast\Attack">
+      <UniqueIdentifier>{5519791c-142d-48e6-be00-501a5a95a51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Skill\Effect\AreaAttack\Beast\Hit">
+      <UniqueIdentifier>{18fa7c3d-d57c-4a6d-964a-b63f9a566711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="20.DATA\SkillInfo\AreaAttack">
+      <UniqueIdentifier>{b6077879-2dce-427a-a8ad-90ddbef6f46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\05.Icon\SkillIcon\AreaAttack">
+      <UniqueIdentifier>{d797ec51-2df5-44bc-9e94-ce6b21991cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Damage">
+      <UniqueIdentifier>{3a9d560a-9bef-429c-9545-d53a76f5d0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\DownCube">
+      <UniqueIdentifier>{9f04f976-d8eb-4e2f-924b-488ae13762b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\JumpCube">
+      <UniqueIdentifier>{da38f925-6fd0-498e-8e48-5ec47fcd52f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\AutoDownCube">
+      <UniqueIdentifier>{bbdb4edb-301f-45b8-8cc2-15814eff7396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\BlockMageJump">
+      <UniqueIdentifier>{38bcd01f-d5a4-4000-a379-1bde08898469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\00.Gate">
+      <UniqueIdentifier>{65a5e1d0-db89-4b84-8301-7f6ecece4f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\00.Gate\GreenGate">
+      <UniqueIdentifier>{2bd5ec4f-454d-4f78-84ea-9cabbfc55c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\00.Gate\RedGate">
+      <UniqueIdentifier>{68f4405f-321d-4aba-99a1-28cf7b63fa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\00.Gate\BlueGate">
+      <UniqueIdentifier>{018d0104-7f32-40c5-88da-c71bdd834d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\00.Gate\PurpleGate">
+      <UniqueIdentifier>{625e11b8-07de-4753-86b6-0c1d3e4fa8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster">
+      <UniqueIdentifier>{fc997e17-d19d-49db-86c1-ed98d5fb3b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\RedSlime">
+      <UniqueIdentifier>{0d44635f-fb9b-4c6d-a690-ebd284b20eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\GreenSlime">
+      <UniqueIdentifier>{047f390d-8c4f-420a-a4b2-85b2b2f99fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\BlueSlime">
+      <UniqueIdentifier>{68c5276a-b185-48c4-a2f7-30442b9b3613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\PurpleSlime">
+      <UniqueIdentifier>{eda2c1b7-5438-4eb3-818a-b57e68af4b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\RedSlime\Skill">
+      <UniqueIdentifier>{28e9513b-4d75-4cd1-803c-78117375e505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\PurpleSlime\Skill">
+      <UniqueIdentifier>{220677c4-ab08-4eed-9c30-a64aa74260ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern">
+      <UniqueIdentifier>{503feff9-0b2a-4ab0-aa80-2c0435916e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern\Laser">
+      <UniqueIdentifier>{74d3edcd-eab3-4271-bcb3-b6fa3e14d4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\MiddleBoss\GASEffect">
+      <UniqueIdentifier>{80fcf71a-8487-46c7-9101-953ea945c13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Monster\00.GASMonster\GreenSlime\GreenSkill">
+      <UniqueIdentifier>{520bd4c8-6e56-4bc3-81e3-f7e6253edcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\TriggerCube">
+      <UniqueIdentifier>{41326089-0ec8-48a1-b7c4-5169044e7cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\08.JalJang">
+      <UniqueIdentifier>{554f6666-7e9b-4af2-9a59-979b7a26c54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\09.DomiScreen">
+      <UniqueIdentifier>{55dec146-15d5-4970-ad57-9c9f4292b6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\LevelUp">
+      <UniqueIdentifier>{36b9515b-5a6c-4a32-9a0f-06242a87ad37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\10.Title">
+      <UniqueIdentifier>{4cd45536-869a-467c-9d9b-4fab4e2e1243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\MiddleBoss\KingSlime">
+      <UniqueIdentifier>{1d4c5d3d-9209-4a56-877c-43df0d402888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Vine">
+      <UniqueIdentifier>{a0f7ee9c-0edb-4665-a2ab-993337e565a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Harp">
+      <UniqueIdentifier>{6d46bc3d-33e2-4f22-972c-718fa5697247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\RockEnter">
+      <UniqueIdentifier>{63f24d94-e6b3-4122-bc45-dc93265690e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\SlimeStone">
+      <UniqueIdentifier>{e82f7a81-1476-4225-a5ca-186d713090b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MoDel\Model_Die">
+      <UniqueIdentifier>{757bff8e-bd9e-4c4f-850f-9b0450d51578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MoDel\Model_Lock">
+      <UniqueIdentifier>{124b5ed8-8609-4e8a-9e5e-dfaa89b85034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\09.EHelena">
+      <UniqueIdentifier>{651e0b40-aeb0-4ea1-82a0-e74d6c4b2d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.UI\03.Dialog\Helena">
+      <UniqueIdentifier>{237520ce-d2d8-43b9-bb65-d695eefc7c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Root">
+      <UniqueIdentifier>{7183b92a-b428-482f-b459-65cd03e64f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Bench">
+      <UniqueIdentifier>{58185098-4999-426e-ba36-c285c2ddaa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Maple">
+      <UniqueIdentifier>{fdf82df9-53b2-4c47-92f2-695ada53365e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Fire">
+      <UniqueIdentifier>{9e253c74-48a9-4bd3-bdb0-307af5cb1c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.MoDel\Model_MiniBlock">
+      <UniqueIdentifier>{2d7d447f-5bc0-4e55-af4d-9ef13482e373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\BlockCube">
+      <UniqueIdentifier>{d3fa3759-1a12-4779-82f6-3a6bac423e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\10.Tomb">
+      <UniqueIdentifier>{b09bac15-6659-4449-a688-27b61b2bd0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\Npc\10.Tomb\TombUI">
+      <UniqueIdentifier>{18e26ef1-26cd-486e-91a6-a5fa21cf3c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\LaserBlockCube">
+      <UniqueIdentifier>{03d361a8-5870-46b7-ab74-e78b25a1832c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cube\SeeCube">
+      <UniqueIdentifier>{ea029746-83d4-4fbd-acb2-f296064e6103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern\GageDown">
+      <UniqueIdentifier>{b16c03b1-f196-4e2b-8197-db7de6d9f0ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>90.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>90.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>90.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>90.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02.GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Level\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Level\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Level\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject\Creature\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>90.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cube.h">
+      <Filter>02.GameObject\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Wood.h">
+      <Filter>03.MoDel\Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Creature.h">
+      <Filter>02.GameObject\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\OrangeMushroom.h">
+      <Filter>02.GameObject\Creature\Monster\OrangeMushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedSnail.h">
+      <Filter>02.GameObject\Creature\Monster\RedSnail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Slime.h">
+      <Filter>02.GameObject\Creature\Monster\Sllime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIManager.h">
+      <Filter>89.Manager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillManager.h">
+      <Filter>89.Manager\SkillManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\InvenManager.h">
+      <Filter>89.Manager\InvenManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SolunaSlashEffectA.h">
+      <Filter>02.GameObject\Skill\Effect\Dash\SolunaSlash\EffectA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SolunaSlashEffectB.h">
+      <Filter>02.GameObject\Skill\Effect\Dash\SolunaSlash\EffectB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CrossTheStyx.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\CrossTheStyx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SunCross.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SunCross\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SunCrossHit.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SunCross\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RibbonPig.h">
+      <Filter>02.GameObject\Creature\Monster\RibbonPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bulb.h">
+      <Filter>04.UI\02.NPCUI\02.Bulb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillFrame.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI.h">
+      <Filter>04.UI\99.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuestUI.h">
+      <Filter>04.UI\02.Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chat.h">
+      <Filter>04.UI\03.Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MushHouse.h">
+      <Filter>03.MoDel\MushHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillUpBtn.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillUpBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillGradeBtn0.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SunCrossIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\CloseAttack\SunCross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillGradeBtn1.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillGradeBtn2.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillGradeBtn3.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillGradeBtn4.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillGradeBtn5.h">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SunCrossInfo.h">
+      <Filter>20.DATA\SkillInfo\CloseAttack\SunCross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ElderStan.h">
+      <Filter>02.GameObject\Creature\Npc\01.ElderStan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Maya.h">
+      <Filter>02.GameObject\Creature\Npc\02.Maya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StoneGolem.h">
+      <Filter>02.GameObject\Creature\Monster\StoneGolem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SolunaSlashIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\Dash\SolunaSlash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SolunaSlashInfo.h">
+      <Filter>20.DATA\SkillInfo\Dash\SolunaSlash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MouseManager.h">
+      <Filter>89.Manager\MouseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBarBase.h">
+      <Filter>04.UI\00.MainUI\HpBar\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBarIcon.h">
+      <Filter>04.UI\00.MainUI\HpBar\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBarHp.h">
+      <Filter>04.UI\00.MainUI\HpBar\Hp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\HpBarMp.h">
+      <Filter>04.UI\00.MainUI\HpBar\Mp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExpLine.h">
+      <Filter>04.UI\00.MainUI\ExpBar\ExpLine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExpBase.h">
+      <Filter>04.UI\00.MainUI\ExpBar\ExpBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExpBar.h">
+      <Filter>04.UI\00.MainUI\ExpBar\ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MenuIcon.h">
+      <Filter>04.UI\00.MainUI\MenuIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuickSlot.h">
+      <Filter>04.UI\00.MainUI\QuickSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MouseCursor.h">
+      <Filter>04.UI\06.Mouse\MouseCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MouseSkillIcon.h">
+      <Filter>04.UI\06.Mouse\MouseSkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuickSlotManager.h">
+      <Filter>89.Manager\QuickSlotManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuickSlotSkill.h">
+      <Filter>04.UI\00.MainUI\QuickSlot\QuickSlotSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Spawner.h">
+      <Filter>05.Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpawnerManager.h">
+      <Filter>05.Spawner\SpawnerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuestManager.h">
+      <Filter>89.Manager\QuestManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Section.h">
+      <Filter>02.GameObject\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Static.h">
+      <Filter>01.Level\Level_Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GreenMushroom.h">
+      <Filter>02.GameObject\Creature\Monster\GreenMushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueSnail.h">
+      <Filter>02.GameObject\Creature\Monster\BlueSnail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GoStump.h">
+      <Filter>02.GameObject\Creature\Monster\GoStump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Henesys_1.h">
+      <Filter>01.Level\Henesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Elenya.h">
+      <Filter>01.Level\Elenya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Potal.h">
+      <Filter>02.GameObject\Creature\Potal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ReefAttack.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\ReefAttack\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ReefAttackHit.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\ReefAttack\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WarriorReef.h">
+      <Filter>02.GameObject\Skill\Effect\Dash\WarriorReef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpearPulling.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SpearPulling\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpearPullingHit.h">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SpearPulling\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WarriorReefInfo.h">
+      <Filter>20.DATA\SkillInfo\Dash\WarriorReef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ReefAttackInfo.h">
+      <Filter>20.DATA\SkillInfo\CloseAttack\ReefAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpearPullingInfo.h">
+      <Filter>20.DATA\SkillInfo\CloseAttack\SpearPulling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ReefAttackIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\CloseAttack\ReefAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpearPullingIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\CloseAttack\SpearPulling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\WarriorReefIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\Dash\WarriorReef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02.GameObject\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Particle.h">
+      <Filter>06.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ParticleManager.h">
+      <Filter>89.Manager\ParticleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Inventory.h">
+      <Filter>04.UI\00.MainUI\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EquipBtn.h">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ConsumBtn.h">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StuffBtn.h">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\InstallBtn.h">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CashBtn.h">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkillInfo.h">
+      <Filter>20.DATA\SkillInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ConsumIcon.h">
+      <Filter>04.UI\00.MainUI\Inventory\ItemIcon\ConsumIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StuffIcon.h">
+      <Filter>04.UI\00.MainUI\Inventory\ItemIcon\StuffIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemInfo.h">
+      <Filter>20.DATA\ItemInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BluePortionInfo.h">
+      <Filter>20.DATA\ItemInfo\ConsumInfo\BluePortion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedPortionInfo.h">
+      <Filter>20.DATA\ItemInfo\ConsumInfo\RedPortion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item.h">
+      <Filter>02.GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DefaultInfo.h">
+      <Filter>20.DATA\ItemInfo\DefaultInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuickSlotItem.h">
+      <Filter>04.UI\00.MainUI\QuickSlot\QuickSlotItem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MouseItemIcon.h">
+      <Filter>04.UI\06.Mouse\MouseItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CutSceneManager.h">
+      <Filter>89.Manager\CutSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Shadow.h">
+      <Filter>02.GameObject\Creature\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GreenMushroomInfo.h">
+      <Filter>20.DATA\ItemInfo\StuffInfo\GreenMushRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueSnailInfo.h">
+      <Filter>20.DATA\ItemInfo\StuffInfo\BuleSnail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GoStumpInfo.h">
+      <Filter>20.DATA\ItemInfo\StuffInfo\GoStump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedSnailInfo.h">
+      <Filter>20.DATA\ItemInfo\StuffInfo\RedSnail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SlimeInfo.h">
+      <Filter>20.DATA\ItemInfo\StuffInfo\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RibbonPigInfo.h">
+      <Filter>20.DATA\ItemInfo\StuffInfo\RibbonPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Bandit.h">
+      <Filter>02.GameObject\Creature\Bandit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizard.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardAttack1.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardHit.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loading.h">
+      <Filter>04.UI\07.Loading\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loading_Mop.h">
+      <Filter>04.UI\07.Loading\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ToolManager.h">
+      <Filter>89.Manager\ToolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_ElenyaEnter.h">
+      <Filter>01.Level\ElenyaEnter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Warning.h">
+      <Filter>02.GameObject\Creature\Npc\03.Warning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueMushmom.h">
+      <Filter>02.GameObject\Creature\MiddleBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bird.h">
+      <Filter>02.GameObject\Creature\Npc\05.Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GgoGgo.h">
+      <Filter>02.GameObject\Creature\Npc\06.GgoGgo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Ming.h">
+      <Filter>02.GameObject\Creature\Npc\04.Ming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Helena.h">
+      <Filter>02.GameObject\Creature\Npc\03.Helena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chick.h">
+      <Filter>02.GameObject\Creature\Npc\07.Chick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardAttack2.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardPatternUI.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardScene.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardFinal.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Final</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardAttack3.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_DHenesys.h">
+      <Filter>01.Level\DHenesys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_DHenesysHunting.h">
+      <Filter>01.Level\DHenesysHunting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_DElenyaEnter.h">
+      <Filter>01.Level\DElenyaEnter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_DElenya.h">
+      <Filter>01.Level\DElenya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_ElenyaGAS.h">
+      <Filter>01.Level\ElenyaGAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_BlackMageEnter.h">
+      <Filter>01.Level\BlackMageEnter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_BlackMage.h">
+      <Filter>01.Level\BlackMage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_WhiteMage.h">
+      <Filter>01.Level\WhiteMage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CutScreen.h">
+      <Filter>04.UI\08.CutScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GAS.h">
+      <Filter>02.GameObject\Creature\MiddleBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemNotice.h">
+      <Filter>04.UI\07.Notice\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardHpBar.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardHpGage.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\HpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TeleportInfo.h">
+      <Filter>20.DATA\ItemInfo\ConsumInfo\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Grass.h">
+      <Filter>02.GameObject\Creature\Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weed.h">
+      <Filter>02.GameObject\Creature\Weed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueMushmomHpbar.h">
+      <Filter>04.UI\07.BossHpBar\BlueMushmom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueMushmomHpGage.h">
+      <Filter>04.UI\07.BossHpBar\BlueMushmom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GASHpbar.h">
+      <Filter>04.UI\07.BossHpBar\GAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GASHpGage.h">
+      <Filter>04.UI\07.BossHpBar\GAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TransformPig.h">
+      <Filter>02.GameObject\Creature\Monster\TransformPig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TransformSlime.h">
+      <Filter>02.GameObject\Creature\Monster\TransformSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TransformStump.h">
+      <Filter>02.GameObject\Creature\Monster\TransformStump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChatBox.h">
+      <Filter>04.UI\03.Dialog\ChatBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TaxiChatBox.h">
+      <Filter>04.UI\03.Dialog\Taxi\TaxiChatBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TaxiButton.h">
+      <Filter>04.UI\03.Dialog\Taxi\TaxiButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Taxi.h">
+      <Filter>02.GameObject\Creature\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PushCube.h">
+      <Filter>02.GameObject\Cube\PushCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardinalBlastAttack.h">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardinalBlastBullet.h">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardinalBlastHit.h">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChasingShotAttack.h">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChasingShotBullet.h">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChasingShotHit.h">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardinalBlastInfo.h">
+      <Filter>20.DATA\SkillInfo\RangeAttack\CardinalBlast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChasingShotInfo.h">
+      <Filter>20.DATA\SkillInfo\RangeAttack\ChasingShot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardinalBlastIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\RangeAttack\CardinalBlast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChasingShotIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\RangeAttack\ChasingShot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastBegin.h">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Begin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastAttack.h">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastEffect.h">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastHit.h">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastLoof.h">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Loof</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastInfo.h">
+      <Filter>20.DATA\SkillInfo\AreaAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BeastIcon.h">
+      <Filter>04.UI\05.Icon\SkillIcon\AreaAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Damage.h">
+      <Filter>02.GameObject\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DamageGen.h">
+      <Filter>02.GameObject\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DownCube.h">
+      <Filter>02.GameObject\Cube\DownCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\JumpCube.h">
+      <Filter>02.GameObject\Cube\JumpCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_BlackMageJump.h">
+      <Filter>01.Level\BlockMageJump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AutoDownCube.h">
+      <Filter>02.GameObject\Cube\AutoDownCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GreenGate.h">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\GreenGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueGate.h">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\BlueGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PurpleGate.h">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\PurpleGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedGate.h">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\RedGate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedSlime.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\RedSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GreenSlime.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\GreenSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlueSlime.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\BlueSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PurpleSlime.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\PurpleSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PurpleSkill.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\PurpleSlime\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RedSkill.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\RedSlime\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardLaser.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GASEffect.h">
+      <Filter>02.GameObject\Creature\MiddleBoss\GASEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GreenSkill.h">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\GreenSlime\GreenSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TriggerCube.h">
+      <Filter>02.GameObject\Cube\TriggerCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Trigger.h">
+      <Filter>02.GameObject\Cube\TriggerCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\JalJang.h">
+      <Filter>02.GameObject\Creature\Npc\08.JalJang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DomiScreen.h">
+      <Filter>04.UI\09.DomiScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LevelUp.h">
+      <Filter>02.GameObject\LevelUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Title.h">
+      <Filter>04.UI\10.Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\KingSlime.h">
+      <Filter>02.GameObject\Creature\MiddleBoss\KingSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Vine.h">
+      <Filter>02.GameObject\Creature\Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Harp.h">
+      <Filter>02.GameObject\Creature\Harp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RockEnter.h">
+      <Filter>02.GameObject\Creature\RockEnter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SlimeStone.h">
+      <Filter>02.GameObject\Creature\SlimeStone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Model_Die.h">
+      <Filter>03.MoDel\Model_Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Model_Lock.h">
+      <Filter>03.MoDel\Model_Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EHelena.h">
+      <Filter>02.GameObject\Creature\Npc\09.EHelena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EHelenaChat.h">
+      <Filter>04.UI\03.Dialog\Helena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Root.h">
+      <Filter>02.GameObject\Creature\Root</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bench.h">
+      <Filter>02.GameObject\Creature\Bench</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Maple.h">
+      <Filter>02.GameObject\Creature\Maple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fire.h">
+      <Filter>02.GameObject\Creature\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Model_MiniBlock.h">
+      <Filter>03.MoDel\Model_MiniBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlockCube.h">
+      <Filter>02.GameObject\Cube\BlockCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tomb.h">
+      <Filter>02.GameObject\Creature\Npc\10.Tomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TombUI.h">
+      <Filter>02.GameObject\Creature\Npc\10.Tomb\TombUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LaserBlockCube.h">
+      <Filter>02.GameObject\Cube\LaserBlockCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SeeCube.h">
+      <Filter>02.GameObject\Cube\SeeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BlackWizardGageDown.h">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern\GageDown</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>90.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>90.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02.GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Level\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Level\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Level\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject\Creature\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cube.cpp">
+      <Filter>02.GameObject\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Wood.cpp">
+      <Filter>03.MoDel\Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Creature.cpp">
+      <Filter>02.GameObject\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\OrangeMushroom.cpp">
+      <Filter>02.GameObject\Creature\Monster\OrangeMushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedSnail.cpp">
+      <Filter>02.GameObject\Creature\Monster\RedSnail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Slime.cpp">
+      <Filter>02.GameObject\Creature\Monster\Sllime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIManager.cpp">
+      <Filter>89.Manager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillManager.cpp">
+      <Filter>89.Manager\SkillManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuestManager.cpp">
+      <Filter>89.Manager\QuestManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\InvenManager.cpp">
+      <Filter>89.Manager\InvenManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SolunaSlashEffectA.cpp">
+      <Filter>02.GameObject\Skill\Effect\Dash\SolunaSlash\EffectA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SolunaSlashEffectB.cpp">
+      <Filter>02.GameObject\Skill\Effect\Dash\SolunaSlash\EffectB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CrossTheStyx.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\CrossTheStyx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SunCross.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SunCross\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SunCrossHit.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SunCross\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RibbonPig.cpp">
+      <Filter>02.GameObject\Creature\Monster\RibbonPig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bulb.cpp">
+      <Filter>04.UI\02.NPCUI\02.Bulb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillFrame.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI.cpp">
+      <Filter>04.UI\99.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Chat.cpp">
+      <Filter>04.UI\03.Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MushHouse.cpp">
+      <Filter>03.MoDel\MushHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillUpBtn.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillUpBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillGradeBtn0.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SunCrossIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\CloseAttack\SunCross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillGradeBtn1.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillGradeBtn2.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillGradeBtn3.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillGradeBtn4.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillGradeBtn5.cpp">
+      <Filter>04.UI\01.PlayerUI\SkillFrame\SkillGradeBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SunCrossInfo.cpp">
+      <Filter>20.DATA\SkillInfo\CloseAttack\SunCross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Maya.cpp">
+      <Filter>02.GameObject\Creature\Npc\02.Maya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ElderStan.cpp">
+      <Filter>02.GameObject\Creature\Npc\01.ElderStan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StoneGolem.cpp">
+      <Filter>02.GameObject\Creature\Monster\StoneGolem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SolunaSlashIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\Dash\SolunaSlash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SolunaSlashInfo.cpp">
+      <Filter>20.DATA\SkillInfo\Dash\SolunaSlash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MouseManager.cpp">
+      <Filter>89.Manager\MouseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBarBase.cpp">
+      <Filter>04.UI\00.MainUI\HpBar\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBarIcon.cpp">
+      <Filter>04.UI\00.MainUI\HpBar\Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBarHp.cpp">
+      <Filter>04.UI\00.MainUI\HpBar\Hp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\HpBarMp.cpp">
+      <Filter>04.UI\00.MainUI\HpBar\Mp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExpLine.cpp">
+      <Filter>04.UI\00.MainUI\ExpBar\ExpLine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExpBase.cpp">
+      <Filter>04.UI\00.MainUI\ExpBar\ExpBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExpBar.cpp">
+      <Filter>04.UI\00.MainUI\ExpBar\ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MenuIcon.cpp">
+      <Filter>04.UI\00.MainUI\MenuIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuickSlot.cpp">
+      <Filter>04.UI\00.MainUI\QuickSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MouseCursor.cpp">
+      <Filter>04.UI\06.Mouse\MouseCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MouseSkillIcon.cpp">
+      <Filter>04.UI\06.Mouse\MouseSkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuickSlotManager.cpp">
+      <Filter>89.Manager\QuickSlotManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuickSlotSkill.cpp">
+      <Filter>04.UI\00.MainUI\QuickSlot\QuickSlotSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Spawner.cpp">
+      <Filter>05.Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpawnerManager.cpp">
+      <Filter>05.Spawner\SpawnerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Section.cpp">
+      <Filter>02.GameObject\Section</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Static.cpp">
+      <Filter>01.Level\Level_Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GreenMushroom.cpp">
+      <Filter>02.GameObject\Creature\Monster\GreenMushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueSnail.cpp">
+      <Filter>02.GameObject\Creature\Monster\BlueSnail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GoStump.cpp">
+      <Filter>02.GameObject\Creature\Monster\GoStump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Henesys_1.cpp">
+      <Filter>01.Level\Henesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Elenya.cpp">
+      <Filter>01.Level\Elenya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Potal.cpp">
+      <Filter>02.GameObject\Creature\Potal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ReefAttack.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\ReefAttack\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ReefAttackHit.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\ReefAttack\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WarriorReef.cpp">
+      <Filter>02.GameObject\Skill\Effect\Dash\WarriorReef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpearPulling.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SpearPulling\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpearPullingHit.cpp">
+      <Filter>02.GameObject\Skill\Effect\CloseAttack\SpearPulling\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WarriorReefInfo.cpp">
+      <Filter>20.DATA\SkillInfo\Dash\WarriorReef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ReefAttackInfo.cpp">
+      <Filter>20.DATA\SkillInfo\CloseAttack\ReefAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpearPullingInfo.cpp">
+      <Filter>20.DATA\SkillInfo\CloseAttack\SpearPulling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ReefAttackIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\CloseAttack\ReefAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpearPullingIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\CloseAttack\SpearPulling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\WarriorReefIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\Dash\WarriorReef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02.GameObject\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Particle.cpp">
+      <Filter>06.Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ParticleManager.cpp">
+      <Filter>89.Manager\ParticleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Inventory.cpp">
+      <Filter>04.UI\00.MainUI\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EquipBtn.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ConsumBtn.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StuffBtn.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\InstallBtn.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CashBtn.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\InvenBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkillInfo.cpp">
+      <Filter>20.DATA\SkillInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ConsumIcon.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\ItemIcon\ConsumIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StuffIcon.cpp">
+      <Filter>04.UI\00.MainUI\Inventory\ItemIcon\StuffIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemInfo.cpp">
+      <Filter>20.DATA\ItemInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BluePortionInfo.cpp">
+      <Filter>20.DATA\ItemInfo\ConsumInfo\BluePortion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedPortionInfo.cpp">
+      <Filter>20.DATA\ItemInfo\ConsumInfo\RedPortion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item.cpp">
+      <Filter>02.GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DefaultInfo.cpp">
+      <Filter>20.DATA\ItemInfo\DefaultInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuickSlotItem.cpp">
+      <Filter>04.UI\00.MainUI\QuickSlot\QuickSlotItem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MouseItemIcon.cpp">
+      <Filter>04.UI\06.Mouse\MouseItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CutSceneManager.cpp">
+      <Filter>89.Manager\CutSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Shadow.cpp">
+      <Filter>02.GameObject\Creature\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GreenMushroomInfo.cpp">
+      <Filter>20.DATA\ItemInfo\StuffInfo\GreenMushRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueSnailInfo.cpp">
+      <Filter>20.DATA\ItemInfo\StuffInfo\BuleSnail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GoStumpInfo.cpp">
+      <Filter>20.DATA\ItemInfo\StuffInfo\GoStump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedSnailInfo.cpp">
+      <Filter>20.DATA\ItemInfo\StuffInfo\RedSnail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SlimeInfo.cpp">
+      <Filter>20.DATA\ItemInfo\StuffInfo\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RibbonPigInfo.cpp">
+      <Filter>20.DATA\ItemInfo\StuffInfo\RibbonPig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Bandit.cpp">
+      <Filter>02.GameObject\Creature\Bandit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizard.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardAttack1.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardHit.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loading.cpp">
+      <Filter>04.UI\07.Loading\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loading_Mop.cpp">
+      <Filter>04.UI\07.Loading\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ToolManager.cpp">
+      <Filter>89.Manager\ToolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_ElenyaEnter.cpp">
+      <Filter>01.Level\ElenyaEnter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuestUI.cpp">
+      <Filter>04.UI\02.Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Warning.cpp">
+      <Filter>02.GameObject\Creature\Npc\03.Warning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueMushmom.cpp">
+      <Filter>02.GameObject\Creature\MiddleBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bird.cpp">
+      <Filter>02.GameObject\Creature\Npc\05.Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GgoGgo.cpp">
+      <Filter>02.GameObject\Creature\Npc\06.GgoGgo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Helena.cpp">
+      <Filter>02.GameObject\Creature\Npc\03.Helena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Ming.cpp">
+      <Filter>02.GameObject\Creature\Npc\04.Ming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Chick.cpp">
+      <Filter>02.GameObject\Creature\Npc\07.Chick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardAttack2.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardPatternUI.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardScene.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardFinal.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardAttack3.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Attack3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_DHenesys.cpp">
+      <Filter>01.Level\DHenesys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_DHenesysHunting.cpp">
+      <Filter>01.Level\DHenesysHunting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_DElenyaEnter.cpp">
+      <Filter>01.Level\DElenyaEnter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_DElenya.cpp">
+      <Filter>01.Level\DElenya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_ElenyaGAS.cpp">
+      <Filter>01.Level\ElenyaGAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_BlackMageEnter.cpp">
+      <Filter>01.Level\BlackMageEnter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_BlackMage.cpp">
+      <Filter>01.Level\BlackMage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_WhiteMage.cpp">
+      <Filter>01.Level\WhiteMage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CutScreen.cpp">
+      <Filter>04.UI\08.CutScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GAS.cpp">
+      <Filter>02.GameObject\Creature\MiddleBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemNotice.cpp">
+      <Filter>04.UI\07.Notice\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardHpBar.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardHpGage.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\UI\HpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TeleportInfo.cpp">
+      <Filter>20.DATA\ItemInfo\ConsumInfo\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Grass.cpp">
+      <Filter>02.GameObject\Creature\Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weed.cpp">
+      <Filter>02.GameObject\Creature\Weed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueMushmomHpbar.cpp">
+      <Filter>04.UI\07.BossHpBar\BlueMushmom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueMushmomHpGage.cpp">
+      <Filter>04.UI\07.BossHpBar\BlueMushmom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GASHpbar.cpp">
+      <Filter>04.UI\07.BossHpBar\GAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GASHpGage.cpp">
+      <Filter>04.UI\07.BossHpBar\GAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TransformPig.cpp">
+      <Filter>02.GameObject\Creature\Monster\TransformPig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TransformSlime.cpp">
+      <Filter>02.GameObject\Creature\Monster\TransformSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TransformStump.cpp">
+      <Filter>02.GameObject\Creature\Monster\TransformStump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChatBox.cpp">
+      <Filter>04.UI\03.Dialog\ChatBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TaxiChatBox.cpp">
+      <Filter>04.UI\03.Dialog\Taxi\TaxiChatBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TaxiButton.cpp">
+      <Filter>04.UI\03.Dialog\Taxi\TaxiButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Taxi.cpp">
+      <Filter>02.GameObject\Creature\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PushCube.cpp">
+      <Filter>02.GameObject\Cube\PushCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardinalBlastAttack.cpp">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardinalBlastBullet.cpp">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardinalBlastHit.cpp">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\CardinalBlast\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChasingShotAttack.cpp">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChasingShotBullet.cpp">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChasingShotHit.cpp">
+      <Filter>02.GameObject\Skill\Effect\RangeAttack\ChasingShot\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardinalBlastInfo.cpp">
+      <Filter>20.DATA\SkillInfo\RangeAttack\CardinalBlast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChasingShotInfo.cpp">
+      <Filter>20.DATA\SkillInfo\RangeAttack\ChasingShot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardinalBlastIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\RangeAttack\CardinalBlast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChasingShotIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\RangeAttack\ChasingShot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastBegin.cpp">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Begin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastAttack.cpp">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastEffect.cpp">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastHit.cpp">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastLoof.cpp">
+      <Filter>02.GameObject\Skill\Effect\AreaAttack\Beast\Loof</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastInfo.cpp">
+      <Filter>20.DATA\SkillInfo\AreaAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BeastIcon.cpp">
+      <Filter>04.UI\05.Icon\SkillIcon\AreaAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Damage.cpp">
+      <Filter>02.GameObject\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DamageGen.cpp">
+      <Filter>02.GameObject\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DownCube.cpp">
+      <Filter>02.GameObject\Cube\DownCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\JumpCube.cpp">
+      <Filter>02.GameObject\Cube\JumpCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_BlackMageJump.cpp">
+      <Filter>01.Level\BlockMageJump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AutoDownCube.cpp">
+      <Filter>02.GameObject\Cube\AutoDownCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GreenGate.cpp">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\GreenGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueGate.cpp">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\BlueGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PurpleGate.cpp">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\PurpleGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedGate.cpp">
+      <Filter>02.GameObject\Creature\Npc\00.Gate\RedGate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedSlime.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\RedSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GreenSlime.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\GreenSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlueSlime.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\BlueSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PurpleSlime.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\PurpleSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PurpleSkill.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\PurpleSlime\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RedSkill.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\RedSlime\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardLaser.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GASEffect.cpp">
+      <Filter>02.GameObject\Creature\MiddleBoss\GASEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GreenSkill.cpp">
+      <Filter>02.GameObject\Creature\Monster\00.GASMonster\GreenSlime\GreenSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TriggerCube.cpp">
+      <Filter>02.GameObject\Cube\TriggerCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Trigger.cpp">
+      <Filter>02.GameObject\Cube\TriggerCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\JalJang.cpp">
+      <Filter>02.GameObject\Creature\Npc\08.JalJang</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DomiScreen.cpp">
+      <Filter>04.UI\09.DomiScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LevelUp.cpp">
+      <Filter>02.GameObject\LevelUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Title.cpp">
+      <Filter>04.UI\10.Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\KingSlime.cpp">
+      <Filter>02.GameObject\Creature\MiddleBoss\KingSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Vine.cpp">
+      <Filter>02.GameObject\Creature\Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Harp.cpp">
+      <Filter>02.GameObject\Creature\Harp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RockEnter.cpp">
+      <Filter>02.GameObject\Creature\RockEnter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SlimeStone.cpp">
+      <Filter>02.GameObject\Creature\SlimeStone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model_Die.cpp">
+      <Filter>03.MoDel\Model_Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model_Lock.cpp">
+      <Filter>03.MoDel\Model_Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EHelena.cpp">
+      <Filter>02.GameObject\Creature\Npc\09.EHelena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EHelenaChat.cpp">
+      <Filter>04.UI\03.Dialog\Helena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Root.cpp">
+      <Filter>02.GameObject\Creature\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bench.cpp">
+      <Filter>02.GameObject\Creature\Bench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Maple.cpp">
+      <Filter>02.GameObject\Creature\Maple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fire.cpp">
+      <Filter>02.GameObject\Creature\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Model_MiniBlock.cpp">
+      <Filter>03.MoDel\Model_MiniBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlockCube.cpp">
+      <Filter>02.GameObject\Cube\BlockCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tomb.cpp">
+      <Filter>02.GameObject\Creature\Npc\10.Tomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TombUI.cpp">
+      <Filter>02.GameObject\Creature\Npc\10.Tomb\TombUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LaserBlockCube.cpp">
+      <Filter>02.GameObject\Cube\LaserBlockCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SeeCube.cpp">
+      <Filter>02.GameObject\Cube\SeeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BlackWizardGageDown.cpp">
+      <Filter>02.GameObject\Creature\BossMonster\BlackWizard\Skill\Pattern\GageDown</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>90.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>90.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>90.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>90.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Player.hlsl">
+      <Filter>90.Default</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Cube.hlsl">
+      <Filter>90.Default</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
