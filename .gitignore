@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+MapleStory2.5/Client/bin/Resources/*
+MapleStory2.5/Client/Data/*
+Tool/Client/bin/Resources/*
+Tool/Client/Data/*
